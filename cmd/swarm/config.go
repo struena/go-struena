@@ -28,13 +28,13 @@ import (
 
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/struena/go-struena/cmd/utils"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/log"
+	"github.com/struena/go-struena/node"
 	"github.com/naoina/toml"
 
-	bzzapi "github.com/ethereum/go-ethereum/swarm/api"
+	bzzapi "github.com/struena/go-struena/swarm/api"
 )
 
 var (

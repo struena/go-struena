@@ -29,9 +29,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/event"
+	"github.com/struena/go-struena/log"
 )
 
 const (

@@ -25,15 +25,15 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/common/hexutil"
+	"github.com/struena/go-struena/common/math"
+	"github.com/struena/go-struena/core/state"
+	"github.com/struena/go-struena/core/types"
+	"github.com/struena/go-struena/ethdb"
+	"github.com/struena/go-struena/log"
+	"github.com/struena/go-struena/params"
+	"github.com/struena/go-struena/rlp"
 )
 
 //go:generate gencodec -type Genesis -field-override genesisSpecMarshaling -out gen_genesis.go

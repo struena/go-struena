@@ -19,8 +19,8 @@ package les
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/bitutil"
-	"github.com/ethereum/go-ethereum/light"
+	"github.com/struena/go-struena/common/bitutil"
+	"github.com/struena/go-struena/light"
 )
 
 const (

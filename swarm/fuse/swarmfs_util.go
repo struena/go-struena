@@ -24,7 +24,7 @@ import (
 	"os/exec"
 	"runtime"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/struena/go-struena/log"
 )
 
 func externalUnmount(mountPoint string) error {

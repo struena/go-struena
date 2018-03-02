@@ -22,13 +22,13 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
-	"github.com/ethereum/go-ethereum/swarm/network/kademlia"
-	"github.com/ethereum/go-ethereum/swarm/storage"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/log"
+	"github.com/struena/go-struena/metrics"
+	"github.com/struena/go-struena/p2p/discover"
+	"github.com/struena/go-struena/p2p/netutil"
+	"github.com/struena/go-struena/swarm/network/kademlia"
+	"github.com/struena/go-struena/swarm/storage"
 )
 
 // Hive is the logistic manager of the swarm

@@ -25,14 +25,14 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/accounts/usbwallet"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discover"
+	"github.com/struena/go-struena/accounts"
+	"github.com/struena/go-struena/accounts/keystore"
+	"github.com/struena/go-struena/accounts/usbwallet"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/crypto"
+	"github.com/struena/go-struena/log"
+	"github.com/struena/go-struena/p2p"
+	"github.com/struena/go-struena/p2p/discover"
 )
 
 const (

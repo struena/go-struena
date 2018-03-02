@@ -21,11 +21,11 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/bn256"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/common/math"
+	"github.com/struena/go-struena/crypto"
+	"github.com/struena/go-struena/crypto/bn256"
+	"github.com/struena/go-struena/params"
 	"golang.org/x/crypto/ripemd160"
 )
 

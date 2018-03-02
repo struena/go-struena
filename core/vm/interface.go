@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/core/types"
 )
 
 // StateDB is an EVM database for full state querying.

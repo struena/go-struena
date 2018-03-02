@@ -33,7 +33,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/struena/go-struena/log"
 )
 
 // Handler is the global debugging handler.

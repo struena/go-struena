@@ -27,16 +27,16 @@ import (
 
 	goruntime "runtime"
 
-	"github.com/ethereum/go-ethereum/cmd/evm/internal/compiler"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/core/vm/runtime"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/struena/go-struena/cmd/evm/internal/compiler"
+	"github.com/struena/go-struena/cmd/utils"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/core"
+	"github.com/struena/go-struena/core/state"
+	"github.com/struena/go-struena/core/vm"
+	"github.com/struena/go-struena/core/vm/runtime"
+	"github.com/struena/go-struena/ethdb"
+	"github.com/struena/go-struena/log"
+	"github.com/struena/go-struena/params"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

@@ -21,11 +21,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto/sha3"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/core/types"
+	"github.com/struena/go-struena/crypto/sha3"
+	"github.com/struena/go-struena/ethdb"
+	"github.com/struena/go-struena/rlp"
 )
 
 // Tests block header storage and retrieval operations.

@@ -27,12 +27,12 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/struena/go-struena/core"
+	"github.com/struena/go-struena/core/types"
+	"github.com/struena/go-struena/internal/debug"
+	"github.com/struena/go-struena/log"
+	"github.com/struena/go-struena/node"
+	"github.com/struena/go-struena/rlp"
 )
 
 const (

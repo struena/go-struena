@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/struena/go-struena/accounts/keystore"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/log"
 )
 
 // deployNode creates a new node configuration based on some user input.

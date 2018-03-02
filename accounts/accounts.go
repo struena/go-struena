@@ -20,10 +20,10 @@ package accounts
 import (
 	"math/big"
 
-	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
+	ethereum "github.com/struena/go-struena"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/core/types"
+	"github.com/struena/go-struena/event"
 )
 
 // Account represents an Ethereum account located at a specific location defined

@@ -21,11 +21,11 @@ import (
 	"errors"
 	"math"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/common/hexutil"
+	"github.com/struena/go-struena/consensus/ethash"
+	"github.com/struena/go-struena/core"
+	"github.com/struena/go-struena/params"
 )
 
 // cppEthereumGenesisSpec represents the genesis specification format used by the

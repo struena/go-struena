@@ -21,17 +21,17 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/struena/go-struena/accounts"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/consensus"
+	"github.com/struena/go-struena/core"
+	"github.com/struena/go-struena/core/state"
+	"github.com/struena/go-struena/core/types"
+	"github.com/struena/go-struena/eth/downloader"
+	"github.com/struena/go-struena/ethdb"
+	"github.com/struena/go-struena/event"
+	"github.com/struena/go-struena/log"
+	"github.com/struena/go-struena/params"
 )
 
 // Backend wraps all methods required for mining.

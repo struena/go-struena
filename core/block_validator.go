@@ -19,10 +19,10 @@ package core
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/struena/go-struena/consensus"
+	"github.com/struena/go-struena/core/state"
+	"github.com/struena/go-struena/core/types"
+	"github.com/struena/go-struena/params"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

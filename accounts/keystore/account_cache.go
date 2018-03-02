@@ -27,9 +27,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/struena/go-struena/accounts"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/log"
 	"gopkg.in/fatih/set.v0"
 )
 

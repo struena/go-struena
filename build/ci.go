@@ -58,7 +58,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/internal/build"
+	"github.com/struena/go-struena/internal/build"
 )
 
 var (

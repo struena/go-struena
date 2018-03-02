@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/common/math"
 )
 
 // calculates the memory size required for a step

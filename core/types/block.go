@@ -27,10 +27,10 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/crypto/sha3"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/common/hexutil"
+	"github.com/struena/go-struena/crypto/sha3"
+	"github.com/struena/go-struena/rlp"
 )
 
 var (

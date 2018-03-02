@@ -7,12 +7,12 @@ import (
 	"math/big"
 	"strings"
 
-	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
+	ethereum "github.com/struena/go-struena"
+	"github.com/struena/go-struena/accounts/abi"
+	"github.com/struena/go-struena/accounts/abi/bind"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/core/types"
+	"github.com/struena/go-struena/event"
 )
 
 // ChequebookABI is the input ABI used to generate the binding from.

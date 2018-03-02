@@ -26,13 +26,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/struena/go-struena/accounts"
+	"github.com/struena/go-struena/ethdb"
+	"github.com/struena/go-struena/event"
+	"github.com/struena/go-struena/internal/debug"
+	"github.com/struena/go-struena/log"
+	"github.com/struena/go-struena/p2p"
+	"github.com/struena/go-struena/rpc"
 	"github.com/prometheus/prometheus/util/flock"
 )
 

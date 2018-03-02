@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/rpc"
+	ethereum "github.com/struena/go-struena"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/core"
+	"github.com/struena/go-struena/core/types"
+	"github.com/struena/go-struena/event"
+	"github.com/struena/go-struena/rpc"
 )
 
 // Type determines the kind of filter and is used to put the filter in to

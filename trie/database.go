@@ -20,9 +20,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/ethdb"
+	"github.com/struena/go-struena/log"
 )
 
 // secureKeyPrefix is the database key prefix used to store trie node preimages.

@@ -21,12 +21,12 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/core/state"
+	"github.com/struena/go-struena/core/vm"
+	"github.com/struena/go-struena/crypto"
+	"github.com/struena/go-struena/ethdb"
+	"github.com/struena/go-struena/params"
 )
 
 // Config is a basic type specifying certain configuration flags for running

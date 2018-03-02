@@ -21,8 +21,8 @@ import (
 
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/params"
 )
 
 var (

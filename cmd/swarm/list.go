@@ -22,8 +22,8 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	swarm "github.com/ethereum/go-ethereum/swarm/api/client"
+	"github.com/struena/go-struena/cmd/utils"
+	swarm "github.com/struena/go-struena/swarm/api/client"
 	"gopkg.in/urfave/cli.v1"
 )
 

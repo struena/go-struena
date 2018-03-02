@@ -23,11 +23,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/core/types"
+	"github.com/struena/go-struena/ethdb"
+	"github.com/struena/go-struena/event"
+	"github.com/struena/go-struena/log"
 )
 
 // ChainIndexerBackend defines the methods needed to process chain segments in

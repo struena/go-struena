@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/ethstats"
-	"github.com/ethereum/go-ethereum/les"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/params"
-	whisper "github.com/ethereum/go-ethereum/whisper/whisperv5"
+	"github.com/struena/go-struena/core"
+	"github.com/struena/go-struena/eth"
+	"github.com/struena/go-struena/eth/downloader"
+	"github.com/struena/go-struena/ethclient"
+	"github.com/struena/go-struena/ethstats"
+	"github.com/struena/go-struena/les"
+	"github.com/struena/go-struena/node"
+	"github.com/struena/go-struena/p2p"
+	"github.com/struena/go-struena/p2p/nat"
+	"github.com/struena/go-struena/params"
+	whisper "github.com/struena/go-struena/whisper/whisperv5"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Geth

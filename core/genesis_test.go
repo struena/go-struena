@@ -22,11 +22,11 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/consensus/ethash"
+	"github.com/struena/go-struena/core/vm"
+	"github.com/struena/go-struena/ethdb"
+	"github.com/struena/go-struena/params"
 )
 
 func TestDefaultGenesisBlock(t *testing.T) {

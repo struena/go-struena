@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/swarm/storage"
+	"github.com/struena/go-struena/log"
+	"github.com/struena/go-struena/swarm/storage"
 )
 
 // syncer parameters (global, not peer specific) default values

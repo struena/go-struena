@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/struena/go-struena/consensus/ethash"
+	"github.com/struena/go-struena/core/types"
+	"github.com/struena/go-struena/core/vm"
+	"github.com/struena/go-struena/crypto"
+	"github.com/struena/go-struena/ethdb"
+	"github.com/struena/go-struena/params"
 )
 
 func ExampleGenerateChain() {

@@ -24,13 +24,13 @@ import (
 	"net"
 	"os"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/discv5"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/struena/go-struena/cmd/utils"
+	"github.com/struena/go-struena/crypto"
+	"github.com/struena/go-struena/log"
+	"github.com/struena/go-struena/p2p/discover"
+	"github.com/struena/go-struena/p2p/discv5"
+	"github.com/struena/go-struena/p2p/nat"
+	"github.com/struena/go-struena/p2p/netutil"
 )
 
 func main() {

@@ -26,7 +26,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
+	"github.com/struena/go-struena/common/mclock"
 )
 
 var (

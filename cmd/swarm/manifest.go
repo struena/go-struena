@@ -24,9 +24,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/swarm/api"
-	swarm "github.com/ethereum/go-ethereum/swarm/api/client"
+	"github.com/struena/go-struena/cmd/utils"
+	"github.com/struena/go-struena/swarm/api"
+	swarm "github.com/struena/go-struena/swarm/api/client"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -26,9 +26,9 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/swarm/storage"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/log"
+	"github.com/struena/go-struena/swarm/storage"
 )
 
 const maxParallelFiles = 5

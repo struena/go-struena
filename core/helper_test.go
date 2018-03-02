@@ -20,9 +20,9 @@ import (
 	"container/list"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
+	"github.com/struena/go-struena/core/types"
+	"github.com/struena/go-struena/ethdb"
+	"github.com/struena/go-struena/event"
 )
 
 // Implement our EthTest Manager

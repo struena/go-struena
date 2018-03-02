@@ -24,8 +24,8 @@ import (
 
 	"strings"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/internal/debug"
+	"github.com/struena/go-struena/cmd/utils"
+	"github.com/struena/go-struena/internal/debug"
 	"gopkg.in/urfave/cli.v1"
 )
 

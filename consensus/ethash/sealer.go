@@ -24,10 +24,10 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/consensus"
+	"github.com/struena/go-struena/core/types"
+	"github.com/struena/go-struena/log"
 )
 
 // Seal implements consensus.Engine, attempting to find a nonce that satisfies

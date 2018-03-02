@@ -26,11 +26,11 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/secp256k1"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/core"
+	"github.com/struena/go-struena/crypto"
+	"github.com/struena/go-struena/crypto/secp256k1"
+	"github.com/struena/go-struena/rlp"
 )
 
 // Constants to match up protocol versions and messages

@@ -25,14 +25,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/discv5"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/common/mclock"
+	"github.com/struena/go-struena/event"
+	"github.com/struena/go-struena/log"
+	"github.com/struena/go-struena/p2p/discover"
+	"github.com/struena/go-struena/p2p/discv5"
+	"github.com/struena/go-struena/p2p/nat"
+	"github.com/struena/go-struena/p2p/netutil"
 )
 
 const (

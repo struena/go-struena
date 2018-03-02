@@ -27,11 +27,11 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/bitutil"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/sha3"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/common/bitutil"
+	"github.com/struena/go-struena/crypto"
+	"github.com/struena/go-struena/crypto/sha3"
+	"github.com/struena/go-struena/log"
 )
 
 const (

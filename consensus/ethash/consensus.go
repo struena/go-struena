@@ -24,13 +24,13 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/common/math"
+	"github.com/struena/go-struena/consensus"
+	"github.com/struena/go-struena/consensus/misc"
+	"github.com/struena/go-struena/core/state"
+	"github.com/struena/go-struena/core/types"
+	"github.com/struena/go-struena/params"
 	set "gopkg.in/fatih/set.v0"
 )
 

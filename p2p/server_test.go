@@ -25,10 +25,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/sha3"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
+	"github.com/struena/go-struena/crypto"
+	"github.com/struena/go-struena/crypto/sha3"
+	"github.com/struena/go-struena/log"
+	"github.com/struena/go-struena/p2p/discover"
 )
 
 func init() {

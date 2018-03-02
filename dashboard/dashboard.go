@@ -35,11 +35,11 @@ import (
 	"time"
 
 	"github.com/elastic/gosigar"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/struena/go-struena/log"
+	"github.com/struena/go-struena/metrics"
+	"github.com/struena/go-struena/p2p"
+	"github.com/struena/go-struena/params"
+	"github.com/struena/go-struena/rpc"
 	"golang.org/x/net/websocket"
 )
 

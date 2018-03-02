@@ -32,14 +32,14 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/simulations"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/struena/go-struena/log"
+	"github.com/struena/go-struena/node"
+	"github.com/struena/go-struena/p2p"
+	"github.com/struena/go-struena/p2p/discover"
+	"github.com/struena/go-struena/p2p/simulations"
+	"github.com/struena/go-struena/p2p/simulations/adapters"
+	"github.com/struena/go-struena/rlp"
+	"github.com/struena/go-struena/rpc"
 )
 
 // ProtocolTester is the tester environment used for unit testing protocol

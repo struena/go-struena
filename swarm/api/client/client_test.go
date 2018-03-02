@@ -25,8 +25,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/swarm/api"
-	"github.com/ethereum/go-ethereum/swarm/testutil"
+	"github.com/struena/go-struena/swarm/api"
+	"github.com/struena/go-struena/swarm/testutil"
 )
 
 // TestClientUploadDownloadRaw test uploading and downloading raw data to swarm

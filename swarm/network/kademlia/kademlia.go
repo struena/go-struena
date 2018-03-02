@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/struena/go-struena/log"
+	"github.com/struena/go-struena/metrics"
 )
 
 //metrics variables

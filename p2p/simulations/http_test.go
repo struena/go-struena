@@ -27,12 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/struena/go-struena/event"
+	"github.com/struena/go-struena/node"
+	"github.com/struena/go-struena/p2p"
+	"github.com/struena/go-struena/p2p/discover"
+	"github.com/struena/go-struena/p2p/simulations/adapters"
+	"github.com/struena/go-struena/rpc"
 )
 
 // testService implements the node.Service interface and provides protocols

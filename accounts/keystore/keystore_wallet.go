@@ -19,9 +19,9 @@ package keystore
 import (
 	"math/big"
 
-	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/core/types"
+	ethereum "github.com/struena/go-struena"
+	"github.com/struena/go-struena/accounts"
+	"github.com/struena/go-struena/core/types"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

@@ -26,12 +26,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/consensus/ethash"
+	"github.com/struena/go-struena/core"
+	"github.com/struena/go-struena/eth"
+	"github.com/struena/go-struena/internal/jsre"
+	"github.com/struena/go-struena/node"
 )
 
 const (

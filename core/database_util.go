@@ -24,13 +24,13 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/struena/go-struena/common"
+	"github.com/struena/go-struena/core/types"
+	"github.com/struena/go-struena/ethdb"
+	"github.com/struena/go-struena/log"
+	"github.com/struena/go-struena/metrics"
+	"github.com/struena/go-struena/params"
+	"github.com/struena/go-struena/rlp"
 )
 
 // DatabaseReader wraps the Get method of a backing data store.
