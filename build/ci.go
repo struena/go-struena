@@ -85,23 +85,23 @@ var (
 	debExecutables = []debExecutable{
 		{
 			Name:        "abigen",
-			Description: "Source code generator to convert Ethereum contract definitions into easy to use, compile-time type-safe Go packages.",
+			Description: "Source code generator to convert Struena contract definitions into easy to use, compile-time type-safe Go packages.",
 		},
 		{
 			Name:        "bootnode",
-			Description: "Ethereum bootnode.",
+			Description: "Struena bootnode.",
 		},
 		{
 			Name:        "evm",
-			Description: "Developer utility version of the EVM (Ethereum Virtual Machine) that is capable of running bytecode snippets within a configurable environment and execution mode.",
+			Description: "Developer utility version of the EVM (Struena Virtual Machine) that is capable of running bytecode snippets within a configurable environment and execution mode.",
 		},
 		{
 			Name:        "geth",
-			Description: "Ethereum CLI client.",
+			Description: "Struena CLI client.",
 		},
 		{
 			Name:        "puppeth",
-			Description: "Ethereum private network manager.",
+			Description: "Struena private network manager.",
 		},
 		{
 			Name:        "rlpdump",
@@ -109,11 +109,11 @@ var (
 		},
 		{
 			Name:        "swarm",
-			Description: "Ethereum Swarm daemon and tools",
+			Description: "Struena Swarm daemon and tools",
 		},
 		{
 			Name:        "wnode",
-			Description: "Ethereum Whisper diagnostic tool",
+			Description: "Struena Whisper diagnostic tool",
 		},
 	}
 
@@ -188,7 +188,7 @@ func doInstall(cmdline []string) {
 
 		if minor < 8 {
 			log.Println("You have Go version", runtime.Version())
-			log.Println("go-ethereum requires at least Go version 1.8 and cannot")
+			log.Println("go-struena requires at least Go version 1.8 and cannot")
 			log.Println("be compiled with an earlier version. Please upgrade your Go installation.")
 			os.Exit(1)
 		}
@@ -471,7 +471,7 @@ func maybeSkipArchive(env build.Environment) {
 func doDebianSource(cmdline []string) {
 	var (
 		signer  = flag.String("signer", "", `Signing key name, also used as package author`)
-		upload  = flag.String("upload", "", `Where to upload the source package (usually "ppa:ethereum/ethereum")`)
+		upload  = flag.String("upload", "", `Where to upload the source package (usually "ppa:struena/struena")`)
 		workdir = flag.String("workdir", "", `Output directory for packages (uses temp dir if unset)`)
 		now     = time.Now()
 	)
@@ -533,7 +533,7 @@ func isUnstableBuild(env build.Environment) bool {
 type debMetadata struct {
 	Env build.Environment
 
-	// go-ethereum version being built. Note that this
+	// go-struena version being built. Note that this
 	// is not the debian package version. The package version
 	// is constructed by VersionString.
 	Version string
@@ -550,7 +550,7 @@ type debExecutable struct {
 func newDebMetadata(distro, author string, env build.Environment, t time.Time) debMetadata {
 	if author == "" {
 		// No signing key, use default author.
-		author = "Ethereum Builds <fjl@ethereum.org>"
+		author = "Struena Builds <dev@struena.org>"
 	}
 	return debMetadata{
 		Env:         env,
@@ -566,9 +566,9 @@ func newDebMetadata(distro, author string, env build.Environment, t time.Time) d
 // on all executable packages.
 func (meta debMetadata) Name() string {
 	if isUnstableBuild(meta.Env) {
-		return "ethereum-unstable"
+		return "struena-unstable"
 	}
-	return "ethereum"
+	return "struena"
 }
 
 // VersionString returns the debian version of the packages.
@@ -612,7 +612,7 @@ func (meta debMetadata) ExeConflicts(exe debExecutable) string {
 		// be preferred and the conflicting files should be handled via
 		// alternates. We might do this eventually but using a conflict is
 		// easier now.
-		return "ethereum, " + exe.Name
+		return "struena, " + exe.Name
 	}
 	return ""
 }
@@ -738,7 +738,7 @@ func doAndroidArchive(cmdline []string) {
 	// Build the Android archive and Maven resources
 	build.MustRun(goTool("get", "golang.org/x/mobile/cmd/gomobile"))
 	build.MustRun(gomobileTool("init", "--ndk", os.Getenv("ANDROID_NDK")))
-	build.MustRun(gomobileTool("bind", "--target", "android", "--javapkg", "org.ethereum", "-v", "github.com/ethereum/go-ethereum/mobile"))
+	build.MustRun(gomobileTool("bind", "--target", "android", "--javapkg", "org.struena", "-v", "github.com/struena/go-struena/mobile"))
 
 	if *local {
 		// If we're building locally, copy bundle to build dir and skip Maven
@@ -858,7 +858,7 @@ func doXCodeFramework(cmdline []string) {
 	// Build the iOS XCode framework
 	build.MustRun(goTool("get", "golang.org/x/mobile/cmd/gomobile"))
 	build.MustRun(gomobileTool("init"))
-	bind := gomobileTool("bind", "--target", "ios", "--tags", "ios", "-v", "github.com/ethereum/go-ethereum/mobile")
+	bind := gomobileTool("bind", "--target", "ios", "--tags", "ios", "-v", "github.com/struena/go-struena/mobile")
 
 	if *local {
 		// If we're building locally, use the build folder and stop afterwards
