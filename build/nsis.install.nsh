@@ -34,8 +34,8 @@ Section "Struena" GETH_IDX
   SimpleFC::AdvAddRule "Struena UDP discovery (UDP:30303)" "" 17 2 1 2147483647 1 "$INSTDIR\struena.exe" "" "" "struena" "" 30303 "" ""
 
   # Set default IPC endpoint (https://github.com/struena/EIPs/issues/147)
-  ${EnvVarUpdate} $0 "struena_SOCKET" "R" "HKLM" "\\.\pipe\struena.ipc"
-  ${EnvVarUpdate} $0 "struena_SOCKET" "A" "HKLM" "\\.\pipe\struena.ipc"
+  ${EnvVarUpdate} $0 "STRUENA_SOCKET" "R" "HKLM" "\\.\pipe\struena.ipc"
+  ${EnvVarUpdate} $0 "STRUENA_SOCKET" "A" "HKLM" "\\.\pipe\struena.ipc"
 
   # Add instdir to PATH
   Push "$INSTDIR"
