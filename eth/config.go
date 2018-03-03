@@ -43,8 +43,8 @@ var DefaultConfig = Config{
 		DatasetsInMem:  1,
 		DatasetsOnDisk: 2,
 	},
-	NetworkId:     1,
-	LightPeers:    100,
+	NetworkId:     999980562,
+	LightPeers:    20,
 	DatabaseCache: 768,
 	TrieCache:     256,
 	TrieTimeout:   5 * time.Minute,
@@ -65,9 +65,9 @@ func init() {
 		}
 	}
 	if runtime.GOOS == "windows" {
-		DefaultConfig.Ethash.DatasetDir = filepath.Join(home, "AppData", "Ethash")
+		DefaultConfig.Ethash.DatasetDir = filepath.Join(home, "AppData", "Struena")
 	} else {
-		DefaultConfig.Ethash.DatasetDir = filepath.Join(home, ".ethash")
+		DefaultConfig.Ethash.DatasetDir = filepath.Join(home, ".struena")
 	}
 }
 
