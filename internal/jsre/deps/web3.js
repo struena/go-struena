@@ -2609,7 +2609,7 @@ var properties = function () {
             inputFormatter: utils.toDecimal
         }),
         new Property({
-            name: 'version.ethereum',
+            name: 'version.struena',
             getter: 'eth_protocolVersion',
             inputFormatter: utils.toDecimal
         }),

@@ -427,8 +427,8 @@ const tmplSourceJava = `
 
 package {{.Package}};
 
-import org.ethereum.geth.*;
-import org.ethereum.geth.internal.*;
+import org.struena.struena.*;
+import org.struena.struena.internal.*;
 
 {{range $contract := .Contracts}}
 	public class {{.Type}} {
@@ -439,7 +439,7 @@ import org.ethereum.geth.internal.*;
 			// BYTECODE is the compiled bytecode used for deploying new contracts.
 			public final static byte[] BYTECODE = "{{.InputBin}}".getBytes();
 
-			// deploy deploys a new Ethereum contract, binding an instance of {{.Type}} to it.
+			// deploy deploys a new Struena contract, binding an instance of {{.Type}} to it.
 			public static {{.Type}} deploy(TransactOpts auth, EthereumClient client{{range .Constructor.Inputs}}, {{bindtype .Type}} {{.Name}}{{end}}) throws Exception {
 				Interfaces args = Geth.newInterfaces({{(len .Constructor.Inputs)}});
 				{{range $index, $element := .Constructor.Inputs}}

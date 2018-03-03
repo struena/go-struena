@@ -10,7 +10,7 @@ https://camo.githubusercontent.com/915b7be44ada53c290eb157634330494ebe3e30a/6874
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ethereum/go-ethereum?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 Automated builds are available for stable releases and the unstable master branch.
-Binary archives are published at https://geth.ethereum.org/downloads/.
+Binary archives are published at https://geth.struena.org/downloads/.
 
 ## Building the source
 
@@ -88,8 +88,8 @@ testnet too. Please see above for their explanations if you've skipped to here.
 
 Specifying the `--testnet` flag however will reconfigure your Geth instance a bit:
 
- * Instead of using the default data directory (`~/.ethereum` on Linux for example), Geth will nest
-   itself one level deeper into a `testnet` subfolder (`~/.ethereum/testnet` on Linux). Note, on OSX
+ * Instead of using the default data directory (`~/.struena` on Linux for example), Geth will nest
+   itself one level deeper into a `testnet` subfolder (`~/.struena/testnet` on Linux). Note, on OSX
    and Linux this also means that attaching to a running testnet node requires the use of a custom
    endpoint since `geth attach` will try to attach to a production node endpoint by default. E.g.
    `geth attach <datadir>/testnet/geth.ipc`. Windows users are not affected by this.

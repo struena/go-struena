@@ -120,7 +120,7 @@ var dashboardContent = `
 											<pre>struena --networkid={{.NetworkID}} --datadir=$HOME/.{{.Network}} --cache=1024 --syncmode=full{{if .Ethstats}} --ethstats='{{.Ethstats}}'{{end}} --bootnodes={{.BootnodesFlat}}</pre>
 										</p>
 										<br/>
-										<p>You can download Struena from <a href="https://struena.ethereum.org/downloads/" target="about:blank">https://struena.ethereum.org/downloads/</a>.</p>
+										<p>You can download Struena from <a href="https://struena.struena.org/downloads/" target="about:blank">https://struena.struena.org/downloads/</a>.</p>
 									</div>
 								</div>
 							</div>
@@ -139,7 +139,7 @@ var dashboardContent = `
 											<pre>struena --networkid={{.NetworkID}} --datadir=$HOME/.{{.Network}} --cache=512{{if .Ethstats}} --ethstats='{{.Ethstats}}'{{end}} --bootnodes={{.BootnodesFlat}}</pre>
 										</p>
 										<br/>
-										<p>You can download Struena from <a href="https://struena.ethereum.org/downloads/" target="about:blank">https://struena.ethereum.org/downloads/</a>.</p>
+										<p>You can download Struena from <a href="https://struena.struena.org/downloads/" target="about:blank">https://struena.struena.org/downloads/</a>.</p>
 									</div>
 								</div>
 							</div>
@@ -161,7 +161,7 @@ var dashboardContent = `
 											<pre>struena --networkid={{.NetworkID}} --datadir=$HOME/.{{.Network}} --syncmode=light{{if .Ethstats}} --ethstats='{{.Ethstats}}'{{end}} --bootnodes={{.BootnodesFlat}}</pre>
 										</p>
 										<br/>
-										<p>You can download Struena from <a href="https://struena.ethereum.org/downloads/" target="about:blank">https://struena.ethereum.org/downloads/</a>.</p>
+										<p>You can download Struena from <a href="https://struena.struena.org/downloads/" target="about:blank">https://struena.struena.org/downloads/</a>.</p>
 									</div>
 								</div>
 							</div>
@@ -180,7 +180,7 @@ var dashboardContent = `
 											<pre>struena --networkid={{.NetworkID}} --datadir=$HOME/.{{.Network}} --cache=16 --ethash.cachesinmem=1 --syncmode=light{{if .Ethstats}} --ethstats='{{.Ethstats}}'{{end}} --bootnodes={{.BootnodesFlat}}</pre>
 										</p>
 										<br/>
-										<p>You can download Struena from <a href="https://struena.ethereum.org/downloads/" target="about:blank">https://struena.ethereum.org/downloads/</a>.</p>
+										<p>You can download Struena from <a href="https://struena.struena.org/downloads/" target="about:blank">https://struena.struena.org/downloads/</a>.</p>
 									</div>
 								</div>
 							</div>
@@ -259,7 +259,7 @@ var dashboardContent = `
 										<p>The stable Android archives are distributed via Maven Central, and the develop snapshots via the Sonatype repositories. Before proceeding, please ensure you have a recent version configured in your Android project. You can find details in <a href="https://github.com/ethereum/go-ethereum/wiki/Mobile:-Introduction#android-archive" target="about:blank">Mobile: Introduction &ndash; Android archive</a>.
 										<p>Before connecting to the Ethereum network, download the <a href="/{{.StruenaGenesis}}"><code>{{.StruenaGenesis}}</code></a> genesis json file and either store it in your Android project as a resource file you can access, or save it as a string in a variable. You're going to need to to initialize your client.</p>
 										<p>Inside your Java code you can now import the struena archive and connect to Ethereum:
-											<pre>import org.ethereum.struena.*;</pre>
+											<pre>import org.struena.struena.*;</pre>
 <pre>
 Enodes bootnodes = new Enodes();{{range .Bootnodes}}
 bootnodes.append(new Enode("{{.}}"));{{end}}
@@ -419,7 +419,7 @@ try! node?.start();
 										<p>Puppeth is a tool to aid you in creating a new Ethereum network down to the genesis block, bootnodes, signers, ethstats server, crypto faucet, wallet browsers, block explorer, dashboard and more; without the hassle that it would normally entail to manually configure all these services one by one.</p>
 										<p>Puppeth uses ssh to dial in to remote servers, and builds its network components out of docker containers using docker-compose. The user is guided through the process via a command line wizard that does the heavy lifting and topology configuration automatically behind the scenes.</p>
 										<br/>
-										<p>Puppeth is distributed as part of the <a href="https://struena.ethereum.org/downloads/" target="about:blank">Struena &amp; Tools</a> bundles, but can also be installed separately via:<pre>go get github.com/ethereum/go-ethereum/cmd/puppeth</pre></p>
+										<p>Puppeth is distributed as part of the <a href="https://struena.struena.org/downloads/" target="about:blank">Struena &amp; Tools</a> bundles, but can also be installed separately via:<pre>go get github.com/ethereum/go-ethereum/cmd/puppeth</pre></p>
 										<br/>
 										<p><em>Copyright 2017. The go-ethereum Authors.</em></p>
 									</div>
