@@ -20,10 +20,11 @@ package params
 // the main Struena network.
 var MainnetBootnodes = []string{
 	// Struena Foundation Go Bootnodes
-	"enode://22ac4c631b2aeaf495754f2ee10cff8d16e60535c502e082d156d65d09934be20ddb795c8ea9e298447cd504e15f07497c3a2eb9563f0256f7c33d0be9689b9d@199.247.6.93:30301", // testboot
-
-	// Ethereum Foundation C++ Bootnodes
-	"enode://979b7fa28feeb35a4741660a16076f1943202cb72b6af70d327f053e248bab9ba81760f39d0701ef1d8f89cc1fbd2cacba0710a12cd5314d5e0c9021aa3637f9@5.1.83.226:30303", // DE
+	"enode://8f22839b758620e67bd2f024f08b49b8ef2a69fa58c2faec004b44cdbb0a39ba898a826612839bf06c399fae675f7e2e24f00b9e74a4dfbb8c64c6731a63e05b@54.37.196.162:30301", // EUROPE
+	"enode://c928be6e22107b1d6d2f45aae1c2945fabcd1e244e6db14c3e03cbeefcb267a0091a13d338b9845e579b7bbf508205f190f1ace0cc6258f4e2751b09c06556f4@159.89.220.125:30301", // USA
+	"enode://bae9c2c38ef0facb112113f24800b4abfaa9c9d96e63c2daa397d14c538264e8f05161d3372741081ea96381258604226bf332dc2ac0f7b30bf20a098ec90993@149.56.85.49:30301", // CANADA
+	"enode://ad180e1918fbdf55e62f4d275f162a47a95338257af0b3993dd2cbcc675d8192b1f4f3ec50dec15a11a856c78e76210ac6a7fd66f592c8db45f75d5de539c96f@139.59.22.9:30301", // ASIA
+	"enode://fc14bfc369e7b1145a3b63b9cdc042f063af98fa97d4a5bff637c1fc14af9f7adbce2c65dd788626b6977ac5395ede2eef237397a79ca2e67f9c6c3d93e278e1@35.198.45.126:30301", // SOUTH AMERICA
 }
 
 // TestnetBootnodes are the enode URLs of the P2P bootstrap nodes running on the
