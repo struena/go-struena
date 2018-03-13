@@ -10,7 +10,6 @@ https://camo.githubusercontent.com/915b7be44ada53c290eb157634330494ebe3e30a/6874
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/struena/go-struena?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 Automated builds are available for stable releases and the unstable master branch.
-Binary archives are published at https://struena.struena.org/downloads/.
 
 ## Building the source
 
@@ -101,13 +100,6 @@ over between the main network and test network, you should make sure to always u
 for play-money and real-money. Unless you manually move accounts, Struena will by default correctly
 separate the two networks and will not make any accounts available between them.*
 
-### Full node on the Rinkeby test network
-
-The above test network is a cross client one based on the ethash proof-of-work consensus algorithm. As such, it has certain extra overhead and is more susceptible to reorganization attacks due to the network's low difficulty / security. Go Struena also supports connecting to a proof-of-authority based test network called [*Rinkeby*](https://www.rinkeby.io) (operated by members of the community). This network is lighter, more secure, but is only supported by go-struena.
-
-```
-$ struena --rinkeby console
-```
 
 ### Configuration
 
@@ -131,7 +123,7 @@ One of the quickest ways to get Struena up and running on your machine is by usi
 
 ```
 docker run -d --name struena-node -v /Users/alice/struena:/root \
-           -p 8545:8545 -p 30303:30303 \
+           -p 7680:7680 -p 30303:30303 \
            struena/client-go
 ```
 
