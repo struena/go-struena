@@ -315,7 +315,7 @@ func DefaultGenesisBlock() *Genesis {
 		Nonce:      66,
 		ExtraData:  hexutil.MustDecode("0x"),
 		GasLimit:   5000,
-		Difficulty: big.NewInt(12146849124),
+		Difficulty: big.NewInt(171798691),
 		Alloc:      decodePrealloc(mainnetAllocData),
 	}
 }
