@@ -40,6 +40,28 @@ var (
 	ByzantiumBlockReward   *big.Int = big.NewInt(8e+18) // Block reward in wei for successfully mining a block upward from Byzantium
 	masternodeBlockReward  *big.Int = big.NewInt(1e+18) // Block reward in wei for Masternodes
 	developmentBlockReward *big.Int = big.NewInt(1e+18) // Block reward in wei for development and foundation
+
+	BlockRewardYear2		*big.Int = big.NewInt(4e+18)
+	BlockRewardYear3		*big.Int = big.NewInt(27e+17)
+	BlockRewardYear4		*big.Int = big.NewInt(18e+17)
+	BlockRewardYear5		*big.Int = big.NewInt(9e+17)
+	BlockRewardYear6		*big.Int = big.NewInt(45e+16)
+	BlockRewardYear7		*big.Int = big.NewInt(23e+16)
+
+	masternodeBlockRewardYear2	*big.Int = big.NewInt(32e+17)
+	masternodeBlockRewardYear3	*big.Int = big.NewInt(27e+17)
+	masternodeBlockRewardYear4	*big.Int = big.NewInt(18e+17)
+	masternodeBlockRewardYear5	*big.Int = big.NewInt(9e+17)
+	masternodeBlockRewardYear6	*big.Int = big.NewInt(45e+16)
+	masternodeBlockRewardYear7	*big.Int = big.NewInt(23e+16)
+
+	developmentBlockRewardYear2	*big.Int = big.NewInt(8e+17)
+	developmentBlockRewardYear3	*big.Int = big.NewInt(6e+17)
+	developmentBlockRewardYear4	*big.Int = big.NewInt(4e+17)
+	developmentBlockRewardYear5	*big.Int = big.NewInt(2e+17)
+	developmentBlockRewardYear6	*big.Int = big.NewInt(1e+17)
+	developmentBlockRewardYear7	*big.Int = big.NewInt(4e+16)
+
 	EthDevResetAddr	   	   *big.Int = new(big.Int).Mul(big.NewInt(10), big.NewInt(0)) 
 	maxUncles                       = 2                 // Maximum number of uncles allowed in a single block
 	allowedFutureBlockTime          = 15 * time.Second  // Max time from current time allowed for blocks, before they're considered future blocks
@@ -27224,6 +27246,45 @@ func accumulateRewards(config *params.ChainConfig, state *state.StateDB, header 
 
 	// Select the correct block reward based on chain progression
 	blockReward := FrontierBlockReward
+
+if header.Number.Cmp(big.NewInt(2427507)) > 0 {
+blockReward			= BlockRewardYear2
+masternodeBlockReward		= masternodeBlockRewardYear2
+developmentBlockReward	= developmentBlockRewardYear2
+}
+
+if header.Number.Cmp(big.NewInt(4855014)) > 0 {
+blockReward			= BlockRewardYear3
+masternodeBlockReward		= masternodeBlockRewardYear3
+developmentBlockReward	= developmentBlockRewardYear3
+}
+
+if header.Number.Cmp(big.NewInt(7282521)) > 0 {
+blockReward			= BlockRewardYear4
+masternodeBlockReward		= masternodeBlockRewardYear4
+developmentBlockReward	= developmentBlockRewardYear4
+}
+
+
+if header.Number.Cmp(big.NewInt(9710028)) > 0 {
+blockReward			= BlockRewardYear5
+masternodeBlockReward		= masternodeBlockRewardYear5
+developmentBlockReward	= developmentBlockRewardYear5
+}
+
+
+if header.Number.Cmp(big.NewInt(12137535)) > 0 {
+blockReward			= BlockRewardYear6
+masternodeBlockReward		= masternodeBlockRewardYear6
+developmentBlockReward	= developmentBlockRewardYear6
+}
+
+
+if header.Number.Cmp(big.NewInt(14565042)) > 0 {
+blockReward			= BlockRewardYear7
+masternodeBlockReward		= masternodeBlockRewardYear7
+developmentBlockReward	= developmentBlockRewardYear7
+}
 	
 	// Accumulate the rewards for the miner and any included uncles
 	reward := new(big.Int).Set(blockReward)
